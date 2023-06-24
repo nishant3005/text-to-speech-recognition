@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-image: url('images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3,
+p {
+  padding: 20px;
+}
+
+.txt,
+select,
+form > div {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 13px;
+  border-color: #000;
+}
+
+.txt {
+  width: 80%;
+}
+
+select {
+  width: 83%;
+}
+
+form > div {
+  width: 81%;
+}
+
+.txt,
+form > div {
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+label {
+  float: left;
+  width: 10%;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.rate-value,
+.pitch-value {
+  float: right;
+  width: 5%;
+  line-height: 1.5;
+}
+
+#rate,
+#pitch {
+  float: right;
+  width: 81%;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.controls button {
+  padding: 5px 12px;
+  border-radius: 8px;
+  border-color: #000;
+}
+
+.controls button:hover {
+  background-color: #fff;
+}
